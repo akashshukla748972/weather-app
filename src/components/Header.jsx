@@ -10,7 +10,7 @@ const Header = () => {
   };
   return (
     <header className="bg-blue-50 py-6 flex justify-center items-center shadow-lg">
-      <div className="border-2">
+      <div className="border-2 flex">
         <Search />
         <Button text={"Search"} onClick={handleSearch} />
       </div>
