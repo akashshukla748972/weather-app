@@ -8,7 +8,7 @@ const Search = () => {
       <input
         onChange={(e) => weather.setSearchWeatherCity(e.target.value)}
         type="text"
-        className="py-2 px-3 text-xl outline-none border-none"
+        className="py-2 px-3 text-md md:text-xl outline-none border-none"
         placeholder="Search weather"
         autoFocus
       />
