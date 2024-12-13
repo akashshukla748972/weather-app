@@ -58,7 +58,7 @@ const Card = () => {
         />
       </div>
 
-      <p className="flex flex-col">
+      <p className="flex flex-col text-sm md:text-md">
         <span className="">
           Last Update: {weather?.weatherData?.current?.last_updated}
         </span>
